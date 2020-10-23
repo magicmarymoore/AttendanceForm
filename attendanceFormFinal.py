@@ -1,14 +1,15 @@
 import requests #to submit the form
 import schedule #to have it submit the form on the correct days
-import time #to take a little break
+import time #to have a little break
 
 url = 'https://docs.google.com/forms/d/e/1FAIpQLSfMTRk4rwE41-tmaDv-QxUJvHrvNDfQeCqXHRlVbA29gJ-fcg/viewform' #url of google form to be filled out
 finalData = [] #list that will eventually hold all data to be submitted
+#values ot be submitted (don't have to be variables tho...)
 lastname = 'Moore'
 firstname = 'Mary'
 inschool = 'Yes'
 
-values = { #"entry.number": value_to_be_sumbitted --> each question on the form has it's own unique id
+values = { #"entry.number": value --> each question on the form has it's own unique id
             # last name
             "entry.2111526481": lastname,
             # first name
