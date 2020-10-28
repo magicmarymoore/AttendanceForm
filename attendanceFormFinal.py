@@ -24,7 +24,7 @@ finalData.append(values) #add the data to the list
 
 #client in order to send confirmation text
 #set up using twilio (https://www.twilio.com/) --> Client(account SID, auth token)
-client = Client("AC50d889a7d2c262e728951e29cda0bdb7", "30bbb5bc5d7e117ef93a9ee87e286bb1")
+client = Client("AC50d889a7d2c26728951e29cda0b7", "30bbb5bc5d7ef93a9ee87e2bb1")
 
 #function to submit the form
 def sendAttendance(url, data):
